@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+         version="3.1">
+
+    <servlet>
+        <servlet-name>ServicesClient</servlet-name>
+        <servlet-class>wsclient.sservices.ServicesClient</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/EntrepriseSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/SuggestionSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/DomaineSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/TailleSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/TypeSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/SousCategorieSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/CategorieSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/ProduitSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/LoginSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/PublicationSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/ActualiteSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/ClientProfileSClient</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ServicesClient</servlet-name>
+        <url-pattern>/InscriptionSClient</url-pattern>
+    </servlet-mapping>
+
+    <context-param>
+        <param-name>spring.liveBeansView.mbeanDomain</param-name>
+        <param-value>dev</param-value>
+    </context-param>
+
+</web-app>
